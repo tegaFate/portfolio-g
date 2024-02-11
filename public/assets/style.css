@@ -108,7 +108,7 @@
   
   .aB{
     float: right;
-    width: 650px;
+    width: auto;
     /* width: auto; */
     padding: 10px;
     font-size: 20px;
