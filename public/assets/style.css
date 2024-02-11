@@ -6,6 +6,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #000;
   }
   header {
     background-color: #000000;
@@ -20,14 +21,14 @@
     margin-right: 25px;
   }
   .topnav {
-    background-color: #333;
+    background-color: #ffffff;
     overflow: hidden;
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #000;
     text-align: center;
     padding: 10px 16px;
     /* margin-top: 10px; */
@@ -36,8 +37,8 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #000;
+    color: #fff;
   }
   
   /* .topnav a.active {
@@ -112,7 +113,7 @@
     /* width: auto; */
     padding: 10px;
     font-size: 20px;
-    /* margin-top: 10px; */
+    margin-left: 50px;
     margin-right: 50px;
     background-color: #ffffff;
     border-radius: 6px;
