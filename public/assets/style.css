@@ -91,7 +91,7 @@
   }
   #skills{
     display: inline-block;
-    background-color: #ededed;
+    background-color: #0000005b;
     padding: 20px;
     width: 100%;
   }
@@ -113,10 +113,12 @@
     /* width: auto; */
     padding: 10px;
     font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: #ffffff;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #2a2a2aa4;
     border-radius: 6px;
+    box-shadow: #007bff;
+    color: #fff;
   }
   
   .aB h5{
