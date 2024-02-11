@@ -21,14 +21,14 @@
     margin-right: 25px;
   }
   .topnav {
-    background-color: #ffffff;
+    background-color: #2a2a2aa4;
     overflow: hidden;
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: #000;
+    color: #ffffff;
     text-align: center;
     padding: 10px 16px;
     /* margin-top: 10px; */
@@ -134,9 +134,10 @@
   #our-service{
     display: inline-block;
     padding: 10px;
-    background: #ededed;
+    background: #2a2a2aa4;
     text-align: center;
-    margin: 0;
+    margin: auto 60px;
+    color: #fff;
     }
   #our-service h1{
     font-size: 56px;
@@ -144,7 +145,7 @@
   #our-service .spac{
     width: 100px;
     height: 8px;
-    background: #000;
+    background: #fff;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -153,10 +154,11 @@
       float: left;
       width: 370px;
       height: 430px;
-      background-color: #fff;
-      margin: 22px;
+      background-color: #040404c0;
+      margin: 20px 10px;
       padding: 15px;
       border-radius: 15px;
+      color: #fff;
     }
     #our-service .gigs::shadow{
       background-color: #2196F3;
@@ -175,7 +177,7 @@
     .gigs .get{
     width: 100px;
     height: auto;
-    background: #fff;
+    background: #007bff;
     text-align: center;
     margin: auto;
     border-radius: 100%;
@@ -185,7 +187,7 @@
     width: 120px;
     height: auto;
     margin: auto;
-    background: #007bff;
+    background: #007bff6f;
     padding: 10px;
     border-radius: 100%;
     }
@@ -194,7 +196,7 @@
     .gigs i {
     font-size: 60px; /* Icon size */
     margin-bottom: 10px;
-    color: #000000;
+    color: #ffffff;
     }
   
     #overAlls{
@@ -208,7 +210,7 @@
       display: inline-block;
       width: 100%;
       height: 400px;
-      background-color: #ffffffa6;
+      background-color: #2a2a2aa4;
     }
   
     #overAlls .gets{
@@ -216,7 +218,7 @@
       height: auto;
       float: left;
       margin: auto;
-      background: #007bff71;
+      background: #00000071;
       padding: 8px;
       text-align: center;
       border-radius: 20px;
