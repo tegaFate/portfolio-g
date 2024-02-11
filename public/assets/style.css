@@ -116,8 +116,8 @@
     margin-left: 40px;
     margin-right: 40px;
     background-color: #2a2a2aa4;
-    border-radius: 6px;
-    box-shadow: #007bff;
+    border-radius: 0 6px;
+    /* box-shadow: #007bff; */
     color: #fff;
   }
   
