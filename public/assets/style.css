@@ -788,12 +788,11 @@
   float: none;
   }
   
-  .overAlls{
-  margin-top: 100px;
-  
-  }
+  /* .overAls{
+  margin-top: 10px;
+  } */
   #overAlls .gets{
-    margin: 25px 20px;
+    margin: 25px 18px;
     padding: 0;
   }
   .spac{
