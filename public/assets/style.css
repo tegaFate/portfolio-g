@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #ffffff;
   }
   header {
     background-color: #000000;
@@ -22,7 +22,7 @@
   }
 
   .topnav {
-    background-color: #ffffff;
+    background-color: #5416b798;
       height: auto;
     overflow: hidden;
       font-size: 30px;
@@ -31,22 +31,18 @@
   .topnav a{
     float: left;
     display: block;
-    color: #000;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
       /* height: 50px; */
     text-decoration: none;
   }
   
-  .topnav a:hover {
-    background-color: #ffffff;
+  /* .topnav a:hover {
+    background-color: #5416b798;
     color: #000000;
-  }
-  
-  /* .topnav a.active {
-    background-color: #04aa6d;
-    color: white;
   } */
+
   
   .topnav .icon {
     display: none;
@@ -165,7 +161,7 @@
   #our-service{
     display: inline-block;
     padding: 10px;
-    background: #2a2a2aa4;
+    background: #e9e9e9c4;
     text-align: center;
     margin: auto 60px;
     color: #fff;
@@ -656,6 +652,7 @@
   
   .aB{
   margin:auto;
+  background: #e9e9e992;
   }
   
   header {
@@ -772,17 +769,20 @@
   
   #our-service{
   padding: 2px;
+  margin: auto;
   display: inline-block;
   text-align: center;
-  background: #ced4da;
+  background: #e9e9e9c4;
   }
   #our-service .gigs{
   width: auto;
   float: none;
-  background-color: #fffaf2;
+  background-color: #ffffff;
   margin: 25px 5px;
   padding: 10px;
   border-radius: 8px;
+  color: #000;
+  height: auto;
   }
   
   .overAll{
