@@ -296,7 +296,7 @@
         <section id="overAlls">
           <div class="overAll">
             <div class="overAls">
-              <div style="margin-bottom: 20px;" class="gets">
+              <div class="gets">
                 <div class="get">
                   <i class="fas fa-trophy"></i>
                   </div>
@@ -304,7 +304,7 @@
                   <h3>450</h3>
                   <p>COMPLETED JOB</p>
               </div>
-              <div style="margin-bottom: 20px;" class="gets">
+              <div class="gets">
                 <div class="get">
                   <i class="fas fa-briefcase"></i>
                   </div>
@@ -312,7 +312,7 @@
                   <h3>25</h3>
                   <p>PROJECT </p>
               </div> 
-              <div style="margin-bottom: 20px;" class="gets">
+              <div class="gets">
                 <div class="get">
                   <i class="fas fa-users"></i>
                   </div>
@@ -320,7 +320,7 @@
                   <h3>54</h3>
                   <p>TOTAL CLIENTS</p>
               </div>
-              <div style="margin-bottom: 20px;" class="gets">
+              <div class="gets">
                 <div class="get">
                   <i class="fas fa-award"></i>
                   </div>
@@ -731,7 +731,14 @@ Description: Transparency is key to our process. We provide regular updates and 
             current[0].className = current[0].className.replace(" active", "");
             this.className += " active";
           });
-        }
+        };
+        var overAlls = document.querySelectorAll('.overAll');
+        overAlls.forEach(function(overAll, index) {
+          setTimeout(function() {
+            overAll.style.opacity = '1';
+            overAll.style.transform = 'translateX(0)';
+          }, 500 * index); // Delay in milliseconds
+        });
       //   function myFunction() {
       //   var x = document.getElementById("myLinks");
       //   if (x.style.display === "block") {

@@ -199,7 +199,7 @@
       border-radius: 15px;
       color: #000;
     }
-    
+
     .gigs .get{
     width: 70px;
     height: auto;
@@ -230,27 +230,41 @@
       background-size: cover;
       width: 100%;
       margin-bottom: 20px;
-      display: inline-block;
+      overflow-x: auto; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevent wrapping */
+    }
+    #overAlls::-webkit-scrollbar {
+      display: none;
     }
     .overAll{
-      display: inline-block;
+      display: inline-block; /* Display as inline block */
+      vertical-align: top; /* Align top */
+      margin-right: 20px; /* Add right margin */
+      opacity: 0; /* Hide initially */
+      transform: translateX(-100%); /* Move elements outside the view */
+      transition: opacity 0.5s, transform 0.5s; /* Add transition */
+      /* background-color: #5015a3a4; */
+      margin-top: 20px;
       width: 100%;
-      height: 100%;
-      background-color: #2a2a2aa4;
+    }
+
+    #overAlls.show .overAll {
+      opacity: 1; /* Show element */
+      transform: translateX(0); /* Slide in */
     }
   
     #overAlls .gets{
-      width: 160px;
+      width: 200px;
       height: auto;
-      float: left;
-      /* margin: auto; */
-      background: #00000071;
-      padding: 8px;
-      text-align: center;
-      border-radius: 20px;
+      margin: 25px 70px;
       color: #fff;
-      margin: auto 40px;
-      margin-bottom: 200px;
+      text-align: center; /* Center content */
+      background-color: #00000061; /* Background color */
+      padding: 20px; /* Padding */
+      border-radius: 5px; /* Rounded corners */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+      /* margin-bottom: 20px; Bottom margin */
+      display: inline-block; /* Display as inline block */
       }
       #overAlls i{
       font-size: 40px; /* Icon size */
@@ -713,15 +727,15 @@
   height: auto;
   }
   
-  .overAll{
+  /* .overAll{
   width: 100%;
-  float: none;
   }
-  
+  */
   #overAlls .gets{
-    margin: 25px 10px;
-    padding: 0;
-  }
+    width: 160px;
+    margin: 25px 16px;
+    padding: 10px;
+  } 
   .spac{
   width: 50px;
   height: 5px;
