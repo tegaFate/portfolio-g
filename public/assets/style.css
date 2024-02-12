@@ -176,20 +176,23 @@
   #our-service{
     display: inline-block;
     padding: 10px;
-    background: #5412bdb9;
+    background: #f4f4f4;
     /* text-align: center; */
     margin: 30px 60px;
-    color: #fff;
+    color: #000;
     border-radius: 10px;
     }
   #our-service h1{
     font-size: 56px;
     text-align: center;
   }
+  #our-service h3, h4{
+    text-align: center;
+  }
   #our-service .spac{
     width: 100px;
     height: 8px;
-    background: #fff;
+    background: #000;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
