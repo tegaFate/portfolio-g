@@ -535,11 +535,11 @@
   
   
   @media screen and (max-width:768px) {  
-  /* body {
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  } */
+  } 
   /* .mobile-container {
   width:auto;
   margin: auto;
@@ -549,34 +549,34 @@
   border-radius: 10px;
   } */
   .topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
   }
   
   .topnav #myLinks {
-  display: none;
+    display: none;
   }
   
   .topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
   }
   
   .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   
   .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
   }
   
   /* .active {
@@ -612,10 +612,10 @@
   header {
     margin-top: 5px;
     /* font-size: 70px; */
-    font-size: 8px;
+    font-size: 18px;
   }
   
-  nav ul {
+  /* nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -633,10 +633,10 @@
   
   nav ul li a:hover {
     color: #666;
-  }
+  } */
   
   #portfolio{
-    background-image: url(/img/banner\ 2.jpg);
+    background-image: url(/assets/img/banner\ 2.jpg);
     background-size:cover;
     display: inline-block; 
     width: 100%;
@@ -644,21 +644,31 @@
   }
   
   .banner{
-    margin-top: 100px;
+    /* margin-top: 100px;
     margin-bottom: 80px;
     margin-left: 10px;
-    margin-right: 10px; 
-    width: 90%;
-    background: #4646465b;
+    margin-right: 10px;  */
+    width: 100%;
+    /* max-height: 20%; */
+    background: #00000086;
     padding: 7px;
     color: #fff;
+    height: auto;
+  }
+  .banner .cT{
+    margin-top: 160px;
+    margin-bottom: 80px;
+  }
+  .banner h2{
+    font-size: 50px;
   }
   .banner button{
     width: auto;
-    height: 40px;
-    background-color: #000;
+    height: 60px;
+    background-color: #ffffff;
     border: none;
-    color: #fff;
+    padding: 15px;
+    color: #000000;
     border-radius: 10px 0 10px 0;
   }
   #skills {
