@@ -8,21 +8,36 @@
     <link rel="stylesheet" href="/assets/style.css"> <!-- Link to your CSS file -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .social-icons{
+      display: inline-block;
+      padding: 10px 12px;
+      cursor: pointer;
+      }
+      .social-icons i{
+        font-size: 40px;
+        margin: 0 15px;
+      }
+    </style>
 </head>
 <body>
   <div class="container-fluid">
     <header>
-        <h1>Welcome to Tegafate</h1>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/tegafate" target="_blank"><i class="fab fa-facebook"></i></a> 
+        <a href="https://www.instagram.com/tegafate" target="_blank"><i style="color: #cd486b;" class="fab fa-instagram"></i></a>
+      </div>
     </header>
     <div class="mobile-container">
 
       <!-- Top Navigation Menu -->
       <div class="topnav" id="myTopnav">
         <a style="text-align: center;" href="#home" class="active"><img style="width: 150px; height: 70px; " src="/assets/img/OTHER LOGO.png" alt="TEGAFATE"></a>
-        <a id="dd" href="#news">News</a>
-        <a id="dd" href="#contact">Contact</a>
-        <a id="dd" href="#about">About</a>
-        <a id="dd" href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i style="font-size: 65px;" class="fa fa-bars"></i>
         </a>
       </div>
