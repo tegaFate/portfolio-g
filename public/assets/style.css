@@ -13,7 +13,7 @@
     color: #fff;
     text-align: center;
     margin-top: 15px;
-    font-size: 70px;
+    font-size: 40px;
   }
   
   .heading {
@@ -656,9 +656,7 @@
   }
   
   header {
-    margin-top: 5px;
-    /* font-size: 70px; */
-    font-size: 18px;
+    font-size: 1.0em;
   }
   
   /* nav ul {
@@ -772,7 +770,7 @@
   margin: auto;
   display: inline-block;
   text-align: center;
-  background: #e9e9e9c4;
+  background: #cacacac4;
   }
   #our-service .gigs{
   width: auto;
