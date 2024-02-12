@@ -244,7 +244,7 @@
       width: 160px;
       height: auto;
       float: left;
-      margin: auto;
+      /* margin: auto; */
       background: #00000071;
       padding: 8px;
       text-align: center;
@@ -784,16 +784,17 @@
   }
   
   .overAll{
-  background-image: url(/img/mountain.jpg);
-  background-size: cover;
   width: 100%;
+  float: none;
   }
   
   .overAlls{
   margin-top: 100px;
   
   }
-  
+  #overAlls .gets{
+    margin: 25px 4.5px;
+  }
   .spac{
   width: 50px;
   height: 5px;
