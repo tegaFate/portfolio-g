@@ -793,7 +793,8 @@
   
   }
   #overAlls .gets{
-    margin: 25px 10px;
+    margin: 25px 20px;
+    padding: 0;
   }
   .spac{
   width: 50px;
