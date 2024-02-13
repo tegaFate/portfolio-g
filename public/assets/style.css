@@ -85,7 +85,7 @@
     display: none;
   } */
   #home{
-    background-image: url(/assets/img/banner\ 1.jpg);
+    background-image: url(/assets/imgg/banner\ 1.jpg);
     background-size:cover;
     display: inline-block;
     width: 100%;
@@ -680,7 +680,7 @@
   }
   
   #home{
-    background-image: url(/assets/img/banner\ 2.jpg);
+    background-image: url(/assets/imgg/banner\ 2.jpg);
   }
   
   .banner .cT{
