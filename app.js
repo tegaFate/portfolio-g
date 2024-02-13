@@ -13,6 +13,11 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.get('/sitemap.xml', (req, res) => {
+    res.sendFile(path.join(__dirname, 'sitemap.xml'));
+});
+
+
 app.listen(PORT, () => {
     console.log(`App is running on ${PORT}`);
 });
