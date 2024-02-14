@@ -21,6 +21,10 @@ app.get('/tegafate.png', (req, res) => {
     res.sendFile(path.join(__dirname, 'tegafate.png'));
 });
 
+app.get('/assets/style.css', (req, res) => {
+    res.sendFile(path.join(__dirname, 'styles.css'));
+});
+
 
 app.listen(PORT, () => {
     console.log(`App is running on ${PORT}`);
