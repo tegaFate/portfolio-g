@@ -1,3 +1,16 @@
+document.getElementById("myLink").addEventListener("click", myFunction);
+
+function myFunction(event) {
+event.preventDefault();
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+  console.log('link clicked')
+}
+
 var mySkills = document.getElementsByClassName('skill');
 var button = document.getElementById('skillbtn');
 
@@ -124,6 +137,8 @@ button.onclick = function () {
     this.innerHTML = isOpen ? "Show More" : "Show Less";
 };
 
+
+/*
 function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -131,7 +146,7 @@ function myFunction() {
     } else {
       x.style.display = "block";
     }
-};
+}; */
 
 
 
