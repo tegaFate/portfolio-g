@@ -12,6 +12,12 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.render('index');
 });
+app.get('/contact', (req, res)=>{
+    res.render('contact')
+})
+app.get('/contact', (req, res)=>{
+    res.redirect('/contact')
+})
 
 app.get('/sitemap.xml', (req, res) => {
     res.sendFile(path.join(__dirname, 'sitemap.xml'));
